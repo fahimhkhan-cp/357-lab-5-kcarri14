@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "checkit.h"
 #include "array_list.h"
 
 void test_resize(){
