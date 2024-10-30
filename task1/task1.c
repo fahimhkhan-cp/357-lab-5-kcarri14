@@ -10,7 +10,7 @@ void str_lower(char *stdinput, char *buffer){
         buffer[i] = tolower(stdinput[i]);
         i++;
     }
-    buffer[i] = "\0";
+    buffer[i] = '\0';
 
 }
 void str_lower_mutate(char *str){
@@ -28,6 +28,6 @@ int main(int argc, char* argv[]){
     fgets(standard_input, sizeof(standard_input), stdin);
     str_lower(standard_input, buffer);
     str_lower_mutate(standard_input);
-    
+
     return 0;
 }
