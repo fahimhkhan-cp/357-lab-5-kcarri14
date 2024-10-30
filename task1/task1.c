@@ -24,7 +24,7 @@ void str_lower_mutate(char *str){
 
 int main(int argc, char* argv[]){
     char buffer[1024];
-    char standard_input[1024] = gets(stdin);
+    char standard_input[1024] = fgets(standard_input, sizeof(standard_input), stdin);
     str_lower(*standard_input, buffer);
     printf("%s\n", buffer);
 
