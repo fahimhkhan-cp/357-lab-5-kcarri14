@@ -28,5 +28,9 @@ void test_resize(){
     array_list_free(list);
 
 }
+int main(void){
+    test_resize();
+    return 0;
+}
 
 
