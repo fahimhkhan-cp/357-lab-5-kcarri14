@@ -2,7 +2,7 @@
 #include "array_list.h"
 
 int main(){
-    array_list *list = array_list_new;
+    array_list *list = array_list_new();
     array_list_add_to_end(list, "Hello");
     array_list_add_to_end(list, "My");
     array_list_add_to_end(list, "Name");

@@ -10,6 +10,7 @@ array_list *array_list_new(){
     list -> capacity = inital_cap;
     list -> length = 0;
     list -> items = malloc(list-> capacity * sizeof(char *));
+    return list;
 }
 
 void array_list_add_to_end(array_list *list, char *str){
