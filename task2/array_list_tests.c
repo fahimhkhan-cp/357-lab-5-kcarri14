@@ -18,9 +18,9 @@ void test_resize(){
     checkit_string(list->items[3], "will");
     checkit_string(list->items[4], "be");
     checkit_string(list->items[5], "Kaitlyn");
-    checkit_string(list->items[0], "Namvar");
+    checkit_string(list->items[6], "Namvar");
 
-    checkit_int(list->length, 3);
+    checkit_int(list->length, 7);
 
     for (int i =0; i < list -> length; i++){
         printf("Item %d: %s\n", i, list->items[i]);
