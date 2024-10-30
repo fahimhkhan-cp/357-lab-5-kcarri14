@@ -21,7 +21,7 @@ void str_lower_mutate(char *str){
     }
 
 }
-
+#ifdef MAIN_PROGRAM
 int main(int argc, char* argv[]){
     char buffer[1024];
     char standard_input[1024];
@@ -31,3 +31,4 @@ int main(int argc, char* argv[]){
 
     return 0;
 }
+#endif
